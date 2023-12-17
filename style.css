@@ -1,0 +1,133 @@
+* {
+    margin: 3px
+}
+.container {
+    width: 100%;
+    height: 5rem;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(138, 206, 237);
+    margin: 5px;
+    padding: px;
+    border-radius: 5px;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    width: 9rem;
+    margin-left: 20px;
+}
+.logo img {
+    height: 30px;
+    width: auto;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-top: 14px;
+
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    font-weight: 700;
+}
+.text input {
+    width: 40vw;
+    height: 2rem;
+    border-radius: 15px;
+}
+.text i {
+    position: absolute;
+    padding-left: 5px;
+    padding-top: 1.5px;
+    clear: right;
+}
+.anc ul {
+    display: flex;
+    width: 24vw;
+    justify-content: space-between;
+    padding: 5px;
+}
+.anc ul li {
+    list-style: none;
+    width: 15rem;
+}
+.box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+    background-color: rgb(138, 206, 237);
+    height: 28vh;
+    width: 98vw;
+    align-items: center;
+    border-radius: 10px;
+}
+.img {
+    height: 7rem;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    width: 7rem;
+    align-self: center;
+}
+.img h3 {
+    margin-left: 2px;
+    align-self: center;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(244, 232, 216);
+    padding: 4px;
+    border-radius: 15px;
+    width: 9rem;
+    height: 12rem;
+}
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 98vw;
+    height: 49vh;
+    background-color: rgb(138, 206, 237);
+    padding: 5px;
+    border-radius: 10px;
+}
+.card_img {
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+
+}
+.en {
+    width: 16rem;
+}
+.card {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: antiquewhite;
+    width: 10rem;
+    transition: all 0.3s ease-out;
+}
+footer {
+    height: 100px;
+    width: 98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.card:hover {
+    translate: 5px -25px 30px;
+    box-shadow: 2px 2px 15px black;
+}
